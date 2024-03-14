@@ -3,6 +3,12 @@ Simplify original dataset
 from
 """
 
+import json
+from sklearn.preprocessing import OrdinalEncoder
+from collections import Counter
+import typing as t
+import re
+import numpy as np
 import pandas as pd
 
 pd.options.display.max_columns = 100
@@ -11,15 +17,9 @@ pd.options.display.max_colwidth = 100
 pd.options.display.precision = 10
 pd.options.display.width = 160
 pd.set_option("display.float_format", "{:.4f}".format)
-import numpy as np
-import re
-import typing as t
-from collections import Counter
-from sklearn.preprocessing import OrdinalEncoder
-import json
 
 if __name__ == "__main__":
-    file = "./data/dpe-v2-tertiaire-2.csv"
+    file = "./data/data_ademe.csv"
     data = pd.read_csv(file)
 
     columns = data.columns.copy()
@@ -169,8 +169,7 @@ if __name__ == "__main__":
     mappings = {}
     for i, col in enumerate(encoder.feature_names_in_):
         mappings[col] = {
-            int(value): category
-            for value, category in enumerate(encoder.categories_[i])
+            int(value): category for value, category in enumerate(encoder.categories_[i])
         }
 
     # Save the mappings to a JSON file

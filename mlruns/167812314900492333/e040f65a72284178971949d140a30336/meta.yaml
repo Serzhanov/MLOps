@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/e040f65a72284178971949d140a30336/artifacts
+end_time: 1710416160542
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: e040f65a72284178971949d140a30336
+run_name: thundering-wolf-868
+run_uuid: e040f65a72284178971949d140a30336
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe

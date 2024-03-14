@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/fd08b46b25694eb7a6559491b759f8f6/artifacts
+end_time: 1710416160958
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: fd08b46b25694eb7a6559491b759f8f6
+run_name: likeable-goat-708
+run_uuid: fd08b46b25694eb7a6559491b759f8f6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe

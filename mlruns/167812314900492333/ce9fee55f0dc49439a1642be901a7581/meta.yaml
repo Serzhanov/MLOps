@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/ce9fee55f0dc49439a1642be901a7581/artifacts
+end_time: 1710416160542
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: ce9fee55f0dc49439a1642be901a7581
+run_name: stylish-gull-264
+run_uuid: ce9fee55f0dc49439a1642be901a7581
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe

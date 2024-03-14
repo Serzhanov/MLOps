@@ -1,0 +1,16 @@
+{
+  "version_dpe": 0.015742277119654337,
+  "methode_du_dpe": 0.01626280565522887,
+  "categorie_erp": 0.009781120817302974,
+  "secteur_activite": 0.040072554292500014,
+  "type_energie_principale_chauffage": 0.004830790232106574,
+  "type_energie_n_1": 0.012911108271002699,
+  "type_usage_energie_n_1": 0.007078292901646579,
+  "conso_kwhep_m2_an": 0.4351590157153939,
+  "emission_ges_kgco2_m2_an": 0.21573373909007126,
+  "surface_utile": 0.02294215438660268,
+  "conso_finale_energie": 0.07223307300318767,
+  "conso_primaire_energie": 0.07163474975222929,
+  "frais_annuel_energie": 0.05226162373574597,
+  "annee_construction": 0.02335669502732721
+}

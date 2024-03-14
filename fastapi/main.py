@@ -32,9 +32,7 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 @app.get("/run_id")
 def get_run_id():
-    runs = mlflow.search_runs(
-        experiment_ids=[2], order_by=["metrics.best_cv_score desc"]
-    )
+    runs = mlflow.search_runs(experiment_ids=[2], order_by=["metrics.best_cv_score desc"])
     best_run = runs.head(1).to_dict(orient="records")[0]
     print(best_run)
     return best_run["run_id"]

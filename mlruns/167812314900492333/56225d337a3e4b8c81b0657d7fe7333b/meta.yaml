@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/56225d337a3e4b8c81b0657d7fe7333b/artifacts
+end_time: 1710416160542
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: 56225d337a3e4b8c81b0657d7fe7333b
+run_name: skittish-shrike-882
+run_uuid: 56225d337a3e4b8c81b0657d7fe7333b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe

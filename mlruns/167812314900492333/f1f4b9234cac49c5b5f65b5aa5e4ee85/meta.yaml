@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/f1f4b9234cac49c5b5f65b5aa5e4ee85/artifacts
+end_time: 1710416161736
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: f1f4b9234cac49c5b5f65b5aa5e4ee85
+run_name: bittersweet-deer-394
+run_uuid: f1f4b9234cac49c5b5f65b5aa5e4ee85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416161636
+status: 3
+tags: []
+user_id: Nurbe

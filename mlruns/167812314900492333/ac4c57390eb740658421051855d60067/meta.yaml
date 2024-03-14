@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/ac4c57390eb740658421051855d60067/artifacts
+end_time: 1710415028593
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: ac4c57390eb740658421051855d60067
+run_name: capable-stoat-55
+run_uuid: ac4c57390eb740658421051855d60067
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710415028485
+status: 3
+tags: []
+user_id: Nurbe

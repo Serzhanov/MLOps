@@ -1,3 +1,4 @@
+import json
 import pandas as pd
 from sklearn.model_selection import train_test_split, GridSearchCV, KFold
 from sklearn.ensemble import RandomForestClassifier
@@ -31,8 +32,7 @@ if __name__ == "__main__":
 
     # Split the data into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.2, random_state=42
-    )
+        X, y, test_size=0.2, random_state=42)
     id_train = list(X_train.n_dpe)
     X_train.drop(columns=["n_dpe"], inplace=True)
     id_test = list(X_test.n_dpe)
@@ -89,6 +89,6 @@ if __name__ == "__main__":
 
     # Create a dictionary mapping feature names to their importance
     importance_dict = dict(zip(feature_names, feature_importances))
-
+    json.dump(importance_dict, open("importance_dict.json", 'w'))
     with mlflow.start_run():
         mlflow.log_dict(importance_dict, "importance_dict.json")

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/1bada7c08a7743e7aedbf9475a90f370/artifacts
+end_time: 1710415027619
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: 1bada7c08a7743e7aedbf9475a90f370
+run_name: bedecked-hog-99
+run_uuid: 1bada7c08a7743e7aedbf9475a90f370
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710414879912
+status: 3
+tags: []
+user_id: Nurbe

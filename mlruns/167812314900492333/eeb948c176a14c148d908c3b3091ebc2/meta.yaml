@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/eeb948c176a14c148d908c3b3091ebc2/artifacts
+end_time: 1710416160542
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: eeb948c176a14c148d908c3b3091ebc2
+run_name: redolent-moth-764
+run_uuid: eeb948c176a14c148d908c3b3091ebc2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe

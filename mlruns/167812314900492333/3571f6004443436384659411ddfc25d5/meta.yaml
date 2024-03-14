@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/167812314900492333/3571f6004443436384659411ddfc25d5/artifacts
+end_time: 1710416160542
+entry_point_name: ''
+experiment_id: '167812314900492333'
+lifecycle_stage: active
+run_id: 3571f6004443436384659411ddfc25d5
+run_name: glamorous-mare-177
+run_uuid: 3571f6004443436384659411ddfc25d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1710416011586
+status: 3
+tags: []
+user_id: Nurbe
